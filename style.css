@@ -1,0 +1,119 @@
+/* Основні стилі для тіла документу */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Світло-сірий фон */
+}
+
+/* Стиль для заголовка */
+header {
+    background: linear-gradient(135deg, #4a90e2, #9013fe); /* Градієнт фону */
+    color: #fff; /* Білий текст */
+    padding: 30px 0; /* Внутрішні відступи */
+    text-align: center;
+}
+
+/* Стиль для зображення */
+header img {
+    border-radius: 50%; /* Кругле зображення */
+    border: 5px solid #fff; /* Біла рамка */
+}
+
+/* Стиль для основного контенту */
+main {
+    max-width: 800px; /* Максимальна ширина */
+    margin: 20px auto; /* Вирівнювання по центру */
+    padding: 20px; /* Внутрішні відступи */
+    background: #fff; /* Білий фон */
+    border-radius: 8px; /* Заокруглені кути */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Тінь */
+}
+
+/* Заголовки секцій */
+h2 {
+    border-bottom: 2px solid #4a90e2; /* Лінія під заголовком */
+    padding-bottom: 10px; /* Внутрішні відступи */
+    margin-bottom: 20px; /* Зовнішні відступи */
+    color: #333; /* Темно-сірий текст */
+    font-size: 1.5em; /* Розмір шрифту заголовка */
+}
+
+/* Список та таблиці */
+ol, ul, table {
+    margin: 20px 0; /* Відстань від інших елементів */
+    padding-left: 20px; /* Внутрішні відступи */
+}
+
+table {
+    width: 100%; /* Ширина таблиці */
+    border-collapse: collapse; /* Злиття рамок */
+}
+
+th, td {
+    padding: 12px; /* Внутрішні відступи */
+    text-align: left; /* Вирівнювання тексту */
+    border-bottom: 1px solid #ddd; /* Лінія під елементами таблиці */
+}
+
+/* Зміна кольору заголовків таблиці */
+th {
+    background-color: #4a90e2; /* Градієнт фону для заголовків таблиць */
+    color: white; /* Білий текст для заголовків таблиць */
+}
+
+/* Стиль для форм */
+form {
+    background: #f9f9f9; /* Світло-сірий фон */
+    padding: 20px; /* Внутрішні відступи */
+    border-radius: 5px; /* Заокруглені кути */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тінь */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%; /* Ширина полів */
+    padding: 10px; /* Внутрішні відступи */
+    margin: 10px 0; /* Зовнішні відступи */
+    border: 1px solid #ccc; /* Сіра рамка */
+    border-radius: 4px; /* Заокруглені кути */
+    transition: border 0.3s; /* Анімація при зміні рамки */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #4a90e2; /* Зміна кольору рамки при фокусі */
+}
+
+/* Кнопка для відправки форми */
+input[type="submit"] {
+    background: #4a90e2; /* Темно-сірий фон */
+    color: white; /* Білий текст */
+    border: none; /* Без рамки */
+    padding: 10px 15px; /* Внутрішні відступи */
+    cursor: pointer; /* Курсор у вигляді руки */
+    border-radius: 4px; /* Заокруглені кути */
+    font-size: 1.1em; /* Розмір шрифту */
+    transition: background 0.3s; /* Анімація при зміні фону */
+}
+
+input[type="submit"]:hover {
+    background: #333; /* Світліший фон при наведенні */
+}
+
+/* Стиль для нижнього колонтитулу */
+footer {
+    text-align: center; /* Вирівнювання тексту по центру */
+    padding: 20px 0; /* Внутрішні відступи */
+    background: linear-gradient(135deg, #4a90e2, #9013fe); /* Градієнт фону */
+    color: white; /* Білий текст */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Ширина колонтитулу */
+    font-size: 0.9em; /* Розмір шрифту */
+}
